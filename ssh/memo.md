@@ -39,7 +39,7 @@ ssh-keygen -t ed25519 -C "comment" -f $env:USERPROFILE\.ssh\id_ed25519_〇〇
 
 ```bash
 # GitHubメイン用
-Host github-main
+Host github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_ed25519_〇〇
